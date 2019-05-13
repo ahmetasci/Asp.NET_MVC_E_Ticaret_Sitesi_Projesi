@@ -1,0 +1,93 @@
+﻿
+@{
+    ViewBag.Title = "Kargo İşlemleri";
+}
+@using KitapSitesi.Models;
+@model List<Kargo>
+
+<div class="row">
+    <div class="col-md-10">
+
+        <div class="block">
+            <div class="block-heading">
+                <div class="main-text h2">
+                    Kargo Şirketleri
+                </div>
+                <div class="block-controls">
+
+
+                    <span aria-hidden="true" class="icon icon-arrow-down icon-size-medium block-control-collapse"></span>
+                    <a href="/KargoIslemleri/KargoEkle" class="btn btn-success rounded">Kargo Ekle</a>
+
+                </div>
+            </div>
+            <div class="block-content-outer">
+                <div class="block-content-inner">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Şirket Adı</th>
+                                <th>Teslimat Süresi</th>
+                                <th>Kargo Fiyatı</th>
+                                <th>Adres</th>
+                                <th>Telefon</th>
+                                <th>Web Sitesi</th>
+                                <th>Sil</th>
+                                <th>Güncelle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (Kargo kargo in Model)
+                            {
+                                <tr>
+                                    <td> <span class="label label-primary">@kargo.SirketAdi</span>   @*Renklendirmeyi açık mavi yaptık*@ </td>
+
+                                    <td>@kargo.TeslimatSuresi</td>
+                                    <td>@kargo.KargoFiyati</td>
+                                    <td>@kargo.Adres</td>
+                                    <td>@kargo.Telefon</td>
+                                    <td>@kargo.WebSite</td>
+                                    <td><a href="#" class="btn btn-danger rounded Sil" data-sil="@kargo.KargoID">Sil</a></td>
+                                    <td><a href="/KargoIslemleri/KargoGuncelle?kargoID=@kargo.KargoID" class="btn btn-primary rounded">Güncelle</a></td>
+
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script src="~/Content/assets/js/required/jquery-1.11.1.min.js"></script>
+    <script>
+        $(".Sil").click(function () {
+            var answer = confirm("Kayıt silinsin mi?");
+            if (answer) {
+                var ID = $(this).attr("data-sil");
+                alert(ID);
+                $.ajax({
+                    type: "POST",
+                    url: "/KargoIslemleri/KargoSil/" + ID,
+                    success: function () {
+                        alert("Kayıt silindi");
+                        window.location.replace("/KargoIslemleri/Index/");
+                    },
+                    error: function () {
+                        alert("Kayıt silme işlemi başarısız oldu");
+                    }
+
+                });
+
+            }
+            else {
+                alert("İptal'e basıldı");
+            }
+        });
+    </script>
+}
+
+
+
+

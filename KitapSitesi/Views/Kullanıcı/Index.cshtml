@@ -1,0 +1,130 @@
+﻿@{
+    ViewBag.Title = "Kullanıcılar Listesi";
+}
+@using KitapSitesi.Models;
+@model MembershipUserCollection
+
+@section head{
+
+    <script src="~/Content/assets/js/required/jquery-1.11.1.min.js"></script>
+    <script>
+        $(document).ready(function () {  //bu satır her iki function için de geçerli. Önce sayfanın diğer kodlarını çalıştırır.
+            //En son bu kodları çalıştırır.
+            //*************************** ************** KULLANICILAR EKRANINDAKİ ROL ATA (BUTONU) FUNCTİON'I ***********************************************
+            $(".rolAta").click(function () {
+
+                const username = $(this).attr("data-username");
+                console.log(username);
+                window.location.href = "/Kullanıcı/RolAtama?username=" + username;
+
+            });
+            //***************************************************************************************************************
+
+
+
+            @*******************************************ROL SİLME İÇİN AJAX KODLARI ********************************************@
+
+            $(".muSil").click(function () {
+                var sonuc = confirm("Kayıt silinsin mi?");
+                if (sonuc) {
+                    var muUser = $(this).attr("data-muUserName");
+
+                    $.ajax({
+                        type: "POST",
+                        url: "/Kullanıcı/KullanıcıSil?UserName=" + muUser,
+                        success: function () {
+                            alert("Kayıt silindi");
+                            window.location.replace("/Kullanıcı/Index");
+                        },
+                        error: function () {
+                            alert("Kayıt silme sırasında hata oluştu.");
+                        }
+                    })
+                }
+            });
+
+        });
+
+
+    </script>
+}
+
+
+
+<div class="row">
+    <div class="col-md-12">
+
+        <div class="block">
+            <div class="block-heading">
+                <div class="main-text h2">
+                    Kullanıcılar
+                </div>
+                <div class="block-controls">
+
+                    <span aria-hidden="true" class="icon icon-arrow-down icon-size-medium block-control-collapse"></span>   @*  aşağı doğru açılır kapanır.collapse yapar.*@
+                    <a href="/Kullanıcı/KullanıcıEkle" class="btn btn-success rounded">Kullanıcı Ekle</a>    @*KULLANICI EKLE BUTONUNA TIKLANDIĞINDA *@
+                </div>
+            </div>
+            <div class="block-content-outer">
+                <div class="block-content-inner">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Kullanıcı Adı</th>
+                                <th>Email</th>
+                                <th>Kayıt Tarihi</th>
+                                <th>Son Giriş Tarihi</th>
+                                <th>Rolleri</th>
+                                <th>Rol Ata</th>
+                                <th>Ajax ile Sil</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (MembershipUser mu in Model)
+                            {
+                                <tr>
+                                    <td>@mu.UserName</td>
+                                    <td>@mu.Email</td>
+                                    <td>@mu.CreationDate</td>
+                                    <td>@mu.LastLoginDate</td>
+
+
+                                    <td><a href="#" class="btn btn-primary rounded rolleri" data-RolUserName="@mu.UserName">Rolleri</a></td>
+                                    @*****************************ROLLERİ BUTONU İÇİN*******************************@
+
+
+                                    <td><a class="btn btn-primary rolAta" data-username="@mu.UserName">Rol Ata</a></td>
+                                    @******ROL ATA BUTONU İÇİN ****** burda href eklemedik.JQuery kodunda Metot içinde ekledik*@
+                                    <td><a href="#" class="btn btn-danger rounded muSil" data-muUserName="@mu.UserName">Üye Sil</a></td>
+                                    @*  **********AJAX ile silme işlemi için***********  *@
+
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@********************ROLLERİ BUTONU İÇİN AJAX KODLARI****************@
+@section body{
+    <script src="~/Content/assets/js/required/jquery-1.11.1.min.js"></script>
+    <script>
+        $(".rolleri").click(function () {
+            var un = $(this).attr("data-RolUserName");
+            $.ajax({
+                type: "GET",
+                url: "/Kullanıcı/RolleriKullanıcı",
+                data: { username: un },
+                success: function (show) {
+                    alert(un + ":(" + show + ")");
+                }
+            });
+        });
+
+    </script>
+
+}
+@*****************************************************************************@

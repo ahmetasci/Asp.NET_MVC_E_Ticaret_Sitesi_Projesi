@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "Yayınevi Guncelle";
+}
+
+@using KitapSitesi.Models;
+@model YayinEvi
+
+<div class="row">
+    <div class="col-md-12 col-sm-12">
+        <div class="block">
+            <div class="block-heading">
+                <div class="main-text h2">
+                    Yayınevi Güncelleme Sayfası
+                </div>
+                <div class="block-controls">
+                    <a href="/Yayınevi/Index">
+                        <span aria-hidden="true" class="icon icon-cross icon-size-medium block-control-remove"></span>
+                    </a>
+                    <span aria-hidden="true" class="icon icon-arrow-down icon-size-medium block-control-collapse"></span>
+                </div>
+            </div>
+            <div class="block-content-outer">
+                <div class="block-content-inner">
+                    <form action="/Yayınevi/YayıneviGuncelle" method="post" role="form">
+
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Yayınevi Adı:</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Yayınevi Adı giriniz" name="YayinEviAdi" value="@Model.YayinEviAdi">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Yayınevi Adresi :</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Yayınevi Adresi giriniz" name="Adres" value="@Model.Adres">
+                        </div>
+
+                        <input type="Hidden" name="YayinEviID" value="@Model.YayinEviID" />
+
+                        <button type="submit" class="btn btn-primary">Kaydet</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

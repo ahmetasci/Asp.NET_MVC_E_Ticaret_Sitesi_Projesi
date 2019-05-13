@@ -1,0 +1,78 @@
+﻿
+@{
+    ViewBag.Title = "Kitap Güncelle";
+}
+@using KitapSitesi.Models;
+@model Kitaplar
+
+<div class="row">
+    <div class="col-md-12 col-sm-12">
+        <div class="block">
+            <div class="block-heading">
+                <div class="main-text h2">
+                    Kitap @ViewBag.kFrom Sayfası
+                </div>
+                <div class="block-controls">
+                    <a href="/KitapIslemleri/Index">
+                        <span aria-hidden="true" class="icon icon-cross icon-size-medium block-control-remove"></span>
+                    </a>
+                    <span aria-hidden="true" class="icon icon-arrow-down icon-size-medium block-control-collapse"></span>
+                </div>
+            </div>
+            <div class="block-content-outer">
+                <div class="block-content-inner">
+                    <form action="/KitapIslemleri/KitapGuncelle" method="post" role="form">
+
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Kitap Adı:</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Kitap Adı giriniz" name="KitapAdi" value="@Model.KitapAdi">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Kategorisi :</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Kategori adı giriniz" name="Kategoriler.KategoriAdi" value="@Model.Kategoriler.KategoriAdi">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Satış Fiyatı :</label>
+                            <input type="number" class="form-control" id="exampleInputEmail1" placeholder="Satış fiyatı giriniz" name="SatisFiyati" value="@Model.SatisFiyati">
+                        </div>
+                        @*<div class="form-group">
+                                <label for="exampleInputEmail1">Alış Fiyatı :</label>
+                                <input type="number" class="form-control" id="exampleInputEmail1" placeholder="Alış fiyatı giriniz" name="AlisFiyati" value="@Model.AlisFiyati">
+                            </div>*@
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Yazarı :</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Yazar adı ve soyadı giriniz" name="Yazarlar.YazarAdiSoyadi" value="@Model.Yazarlar.YazarAdiSoyadi">
+                        </div>
+                     
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Yayınevi Adı :</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Yayınevi adı giriniz" name="YayinEvi.YayinEviAdi" value="@Model.YayinEvi.YayinEviAdi">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Basım Yılı :</label>
+                            <input type="date" class="form-control" id="exampleInputEmail1" placeholder="Basım yılı giriniz" name="BasimYili" value="@Model.BasimYili">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Açıklama :</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Açıklama giriniz" name="Aciklama" value="@Model.Aciklama">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Eklenme Tarihi :</label>
+                            <input type="date" class="form-control" id="exampleInputEmail1" placeholder="Eklenme tarihi giriniz" name="EklenmeTarihi" value="@Model.EklenmeTarihi">
+                        </div>
+
+                        <input type="Hidden" name="KitapID" value="@Model.KitapID" />
+
+                        @if (ViewBag.kFrom == "Güncelleme")
+                        {
+                            <button type="submit" class="btn btn-primary">Kaydet</button>
+                        }
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

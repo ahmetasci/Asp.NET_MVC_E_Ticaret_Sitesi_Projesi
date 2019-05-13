@@ -1,0 +1,184 @@
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\roslyn\csc.exe
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\roslyn\System.Collections.Immutable.dll
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\roslyn\vbc.exe
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\roslyn\VBCSCompiler.exe
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\roslyn\VBCSCompiler.exe.config
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\KitapSitesi.dll.config
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\KitapSitesi.dll
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\KitapSitesi.pdb
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\EntityFramework.dll
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\EntityFramework.SqlServer.dll
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\Microsoft.Web.Infrastructure.dll
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\System.Web.Helpers.dll
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\System.Web.Mvc.dll
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\System.Web.Razor.dll
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.Deployment.dll
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.dll
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.Razor.dll
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\EntityFramework.xml
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\EntityFramework.SqlServer.xml
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\System.Web.Razor.xml
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.xml
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.Deployment.xml
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.Razor.xml
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\System.Web.Helpers.xml
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\bin\System.Web.Mvc.xml
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\obj\Debug\KitapSitesi.csprojResolveAssemblyReference.cache
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\obj\Debug\KitapSitesi.dll
+c:\users\ahmet\documents\visual studio 2015\Projects\KitapSitesi\KitapSitesi\obj\Debug\KitapSitesi.pdb
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\roslyn\csc.exe
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\roslyn\vbc.exe
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\roslyn\VBCSCompiler.exe
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\KitapSitesi.dll.config
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\KitapSitesi.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\KitapSitesi.pdb
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\EntityFramework.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\EntityFramework.SqlServer.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\System.Web.Helpers.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\System.Web.Mvc.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\System.Web.Razor.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.Deployment.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.Razor.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\EntityFramework.xml
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\EntityFramework.SqlServer.xml
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\System.Web.Razor.xml
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.xml
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.Deployment.xml
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.Razor.xml
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\System.Web.Helpers.xml
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\bin\System.Web.Mvc.xml
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\obj\Debug\KitapSitesi.csprojResolveAssemblyReference.cache
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\obj\Debug\KitapSitesi.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\KitapSitesi\KitapSitesi\obj\Debug\KitapSitesi.pdb
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\roslyn\csc.exe
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\roslyn\vbc.exe
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\roslyn\VBCSCompiler.exe
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\KitapSitesi.dll.config
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\KitapSitesi.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\KitapSitesi.pdb
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\EntityFramework.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\EntityFramework.SqlServer.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\System.Web.Helpers.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\System.Web.Mvc.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\System.Web.Razor.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.Deployment.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.Razor.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\EntityFramework.xml
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\EntityFramework.SqlServer.xml
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\System.Web.Razor.xml
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.xml
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.Deployment.xml
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.Razor.xml
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\System.Web.Helpers.xml
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\bin\System.Web.Mvc.xml
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\obj\Debug\KitapSitesi.dll
+C:\Users\AHMET\Desktop\Son Kopya 1\30 nisan KOPYA\KitapSitesi\KitapSitesi\obj\Debug\KitapSitesi.pdb
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\obj\Debug\KitapSitesi.dll
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\obj\Debug\KitapSitesi.pdb
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\roslyn\csc.exe
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\roslyn\vbc.exe
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\roslyn\VBCSCompiler.exe
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\KitapSitesi.dll.config
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\KitapSitesi.dll
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\KitapSitesi.pdb
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\EntityFramework.dll
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\EntityFramework.SqlServer.dll
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\System.Web.Helpers.dll
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\System.Web.Mvc.dll
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\System.Web.Razor.dll
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.Deployment.dll
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.dll
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.Razor.dll
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\EntityFramework.xml
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\EntityFramework.SqlServer.xml
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\System.Web.Razor.xml
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.xml
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.Deployment.xml
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.Razor.xml
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\System.Web.Helpers.xml
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\bin\System.Web.Mvc.xml
+C:\Users\AHMET\Desktop\DENEME\KitapSitesi\KitapSitesi\obj\Debug\KitapSitesi.csprojResolveAssemblyReference.cache
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\roslyn\csc.exe
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\roslyn\vbc.exe
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\roslyn\VBCSCompiler.exe
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\KitapSitesi.dll.config
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\KitapSitesi.dll
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\KitapSitesi.pdb
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\EntityFramework.dll
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\EntityFramework.SqlServer.dll
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\System.Web.Helpers.dll
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\System.Web.Mvc.dll
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\System.Web.Razor.dll
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.Deployment.dll
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.dll
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.Razor.dll
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\EntityFramework.xml
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\EntityFramework.SqlServer.xml
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\System.Web.Razor.xml
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.xml
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.Deployment.xml
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\System.Web.Webpages.Razor.xml
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\System.Web.Helpers.xml
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\bin\System.Web.Mvc.xml
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\obj\Debug\KitapSitesi.csprojResolveAssemblyReference.cache
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\obj\Debug\KitapSitesi.dll
+C:\Users\AHMET\Desktop\MICROSOFT VİSUAL ÇALIŞMALAR\WEB\KitapSitesi\KitapSitesi\obj\Debug\KitapSitesi.pdb

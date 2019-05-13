@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewBag.Title = "Kargo Ekle";
+}
+@using KitapSitesi.Models;
+<div class="row">
+    <div class="col-md-12 col-sm-12">
+        <div class="block">
+            <div class="block-heading">
+                <div class="main-text h2">
+                    Kargo Şirketi Ekleme Sayfası
+                </div>
+                <div class="block-controls">
+                    <a href="/KargoIslemleri/Index">
+                        <span aria-hidden="true" class="icon icon-cross icon-size-medium block-control-remove"></span>
+                    </a>
+                    <span aria-hidden="true" class="icon icon-arrow-down icon-size-medium block-control-collapse"></span>
+                </div>
+            </div>
+            <div class="block-content-outer">
+                <div class="block-content-inner">
+                    <form action="/KargoIslemleri/KargoEkle" method="post" role="form">
+                        @*   Form, Post için gerekli. Action tanımladık*@
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Şirket Adı:</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Şirket adı giriniz" name="SirketAdi">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1"> Teslimat Süresi:</label>
+                            <input type="number" class="form-control" id="exampleInputEmail1" placeholder="Teslimat süresi giriniz" name="TeslimatSuresi">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1"> Kargo Fiyatı:</label>
+                            <input type="number" class="form-control" id="exampleInputEmail1" placeholder="Kargo fiyatı giriniz" name="KargoFiyati">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1"> Adres:</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Adres giriniz" name="Adres">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1"> Telefon:</label>
+                            <input type="number" class="form-control" id="exampleInputEmail1" placeholder="Telefon numarası giriniz" name="Telefon">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1"> Web Sitesi:</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Web sitesi giriniz" name="WebSite">
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary">Kaydet</button>
+                        <!--Submit içinde bulunduğu formun actionında hangi adres ve method tipi belirtilmişse eğer method post ise formun içindeki verileri post eder.-->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

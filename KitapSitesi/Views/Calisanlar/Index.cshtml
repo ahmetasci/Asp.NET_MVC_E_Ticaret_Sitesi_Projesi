@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "Çalışanlar";
+}
+
+@using KitapSitesi.Models;
+@model List<Calisanlar>
+
+<div class="row">
+    <div class="col-md-10">
+
+        <div class="block">
+            <div class="block-heading">
+                <div class="main-text h2">
+                    Çalışanlar
+                </div>
+                <div class="block-controls">
+
+
+                    <span aria-hidden="true" class="icon icon-arrow-down icon-size-medium block-control-collapse"></span>
+                    <a href="/Calisanlar/CalisanEkle" class="btn btn-success rounded">Çalışan Ekle</a>
+
+                </div>
+            </div>
+            <div class="block-content-outer">
+                <div class="block-content-inner">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Çalışan Adı Soyadı</th>
+                                
+                                <th>Adresi </th>
+                                <th>Telefon Numarası</th>
+                                <th>Medeni Durumu</th>
+                                <th>Maaşı</th>
+                                @*<th>Şubesi</th>*@
+                                <th>Sil</th>
+                                <th>Güncelle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (Calisanlar calisan in Model)
+                            {
+                                <tr>
+                                    <td>@calisan.CalisanAdiSoyadi</td>
+                                    <td>@calisan.Adresi</td>
+                                    <td>@calisan.TelefonNumarasi</td>
+                                    <td>@calisan.MedeniDurumu</td>
+                                    <td>@calisan.Maasi</td>
+                                    @*<td>@calisan.Magazalar.MagazaAdi</td>*@
+                                    <td><a href="#" class="btn btn-danger rounded Sil" data-sil="@calisan.CalisanID">Sil</a></td>
+                                    <td><a href="/Calisanlar/CalisanGuncelle?kargoID=@calisan.CalisanID" class="btn btn-primary rounded">Güncelle</a></td>
+
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

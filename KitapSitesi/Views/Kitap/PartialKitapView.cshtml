@@ -1,0 +1,32 @@
+﻿@using KitapSitesi.Models
+@model List<Kitaplar>
+@*PARTIAL VIEW sadece istediğimiz bir alanın yenilenmesini (tekrar yüklenmesini) istediğimiz zamanlarda kullanılır. Burda Sepete ürün eklediğimizde sepet ikonunun partial view ile yenilenip sepetteki ürün sayısını güncel tutmak istediğimiz için PARTIAL VİEW kullandık. Normal şartlarda ajax kodu içinde window.location.reload() komutuyla da bu işi yapabilirdik. Fakat bu komutla yaparsak sayfayı komple yenilemiş oluruz ve sayfada titremeler olur. Bu da profesyonel durmaz*@
+
+@if (Model != null)
+{
+    <a href="#" class="top">
+        <span class="main-menu-text">
+            Sepetim(@Model.Count)
+            <span class="glyphicon glyphicon-shopping-cart"></span>
+            <i class="icon icon-arrow-down-bold-round icon-size-small"></i>
+        </span>
+    </a>
+    <ul>
+        @foreach (Kitaplar kitap in Model)
+        {
+            <li>
+                <a href="/KitapIslemleri/KitapGuncelle?id=@kitap.KitapID&kName=@kitap.KitapAdi&kFrom=Detay">
+                    <span aria-hidden="true" class="icon icon-arrow-curve-right"></span>
+                    <span class="main-text">@kitap.KitapAdi </span>
+                </a>
+            </li> }
+        <li>
+            <a href="/Kitap/Sepetim">
+                <span aria-hidden="true" class="icon icon-arrow-curve-right"></span>
+                <span class="main-text">Sepete Git</span>
+            </a>
+        </li>
+    </ul>
+}
+
+

@@ -1,0 +1,97 @@
+﻿
+@{
+    ViewBag.Title = "Sepetim";
+}
+
+@using KitapSitesi.Models;
+@using KitapSitesi.App_Classes
+@model List<UserCart>
+<div class="row">
+    <div class="col-md-9">
+
+        <div class="block">
+            <div class="block-heading">
+                <div class="main-text h2">
+                    Sepetimdekiler
+                </div>
+                <div class="block-controls">
+
+                    <span aria-hidden="true" class="icon icon-arrow-down icon-size-medium block-control-collapse"></span>  @*aşağı doğru açılır kapanır.collapse yapar.*@
+                    <a href="/Kitap/Index" class="btn btn-success rounded">Alışverişe Devam Et</a>
+
+                </div>
+            </div>
+            <div class="block-content-outer">
+                <div class="block-content-inner">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Kitap Adı</th>
+                                <th>Kategorisi</th>
+                                <th>Yazarı</th>
+                                <th>Fiyatı</th>
+                                <th>Sepetten Çıkar</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+
+                                UserCart uc = new UserCart();
+                                if ((UserCart)Session["CurrentCart"] != null)
+                                {
+                                    uc = (UserCart)Session["CurrentCart"];   //uc'yi Sessiona eşitledik. BURASI ÖNEMLİ...
+
+                                }
+
+
+                            }
+
+                            @foreach (Kitaplar kitap in uc.KitapList)
+                            {
+                                <tr>
+                                    <td>@kitap.KitapAdi</td>
+                                    <td>@kitap.Kategoriler.KategoriAdi</td>
+                                    <td>@kitap.Yazarlar.YazarAdiSoyadi</td>
+                                    <td>@kitap.SatisFiyati</td>
+
+                                    <td><a href="#" class="btn btn-danger rounded sepettenCikar" data-prodID="@kitap.KitapID">Sepetten Çıkar</a></td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script src="~/Content/assets/js/required/jquery-1.11.1.min.js"></script>
+    <script>
+        $(".sepettenCikar").click(function () {
+
+            var answer = confirm("Sepetten silinsin mi");
+            if (answer) {
+                var urunID = $(this).attr("data-prodID");
+                alert(urunID);
+                $.ajax({
+                    type: "POST",
+                    url: "/Kitap/SepettenKaldır/" + urunID,
+                    success: function () {
+                        alert("Sepetten silindi");
+                        window.location.replace("/Kitap/Sepetim/");
+                        //window.location.reload();
+                    },
+                    error: function () {
+                        alert("Kayıt silme işlemi başarısız oldu");
+                    }
+
+                });
+
+            }
+            else {
+                alert("Sepetten kaldırma işlemi iptal edildi.");
+                  }
+        });
+    </script>
+}

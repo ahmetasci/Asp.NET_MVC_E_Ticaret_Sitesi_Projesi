@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Yayınevi Ekleme Sayfası";
+}
+
+@using KitapSitesi.Models;
+<div class="row">
+    <div class="col-md-12 col-sm-12">
+        <div class="block">
+            <div class="block-heading">
+                <div class="main-text h2">
+                    Yayınevi Ekleme Sayfası
+                </div>
+                <div class="block-controls">
+                    <a href="/Yayınevi/Index">
+                        <span aria-hidden="true" class="icon icon-cross icon-size-medium block-control-remove"></span>
+                    </a>
+                    <span aria-hidden="true" class="icon icon-arrow-down icon-size-medium block-control-collapse"></span>
+                </div>
+            </div>
+            <div class="block-content-outer">
+                <div class="block-content-inner">
+                    <form action="/Yayınevi/YayıneviEkleme" method="post" role="form">
+                        @*   Form, Post için gerekli. Action tanımladık*@
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Yayınevi Adı:</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Yayınevi Adı Giriniz" name="YayinEviAdi">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1"> Adresi:</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Yayınevi Adresi Giriniz" name="Adres">
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary">Kaydet</button>
+                        <!--Submit içinde bulunduğu formun actionında hangi adres ve method tipi belirtilmişse eğer method post ise formun içindeki verileri post eder.-->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

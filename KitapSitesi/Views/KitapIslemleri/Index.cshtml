@@ -1,0 +1,116 @@
+﻿
+@{
+    ViewBag.Title = "Kitap İşlemleri";
+}
+
+@using KitapSitesi.Models;
+@model List<Kitaplar>
+
+<div class="row">
+    <div class="col-md-12">
+
+        <div class="block">
+            <div class="block-heading">
+                <div class="main-text h2">
+                    Kitap İşlemleri
+                </div>
+                <div class="block-controls">
+
+
+                    <span aria-hidden="true" class="icon icon-arrow-down icon-size-medium block-control-collapse"></span>
+                    <a href="/KitapIslemleri/KitapEkle" class="btn btn-success rounded">Kitap Ekle</a>
+
+                </div>
+            </div>
+            <div class="block-content-outer">
+                <div class="block-content-inner">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                              
+
+                                <th>Kitap Adı</th>
+                                <th>Kategorisi</th>
+                                <th>Satış Fiyatı </th>
+                                <th>Alış Fiyatı </th>
+                                <th>Yazarı</th>
+                               
+                                <th>Yayınevi</th>
+                                <th>Basım Yılı </th>
+                                <th>Açıklama </th>
+                                <th>Eklenme Tarihi </th>
+                                <th>İndirim Oranı  </th>
+                                <th>Güncelleme</th>
+                                <th>Sil</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (Kitaplar kitap in Model)
+                            {
+                                <tr>
+
+
+                                    <td> <span class="label label-info">@kitap.KitapAdi</span> </td>
+                                    @if (kitap.KategoriID == null)
+                                    {
+                                        <td></td>
+                                    }
+                                    else
+                                    {
+                                        <td>
+                                            <span class="label label-primary">@kitap.Kategoriler.KategoriAdi</span>   @*Renklendirmeyi koyu mavi yaptık*@
+
+                                        </td>
+                                    }
+                                    @*<td>@kitap.Kategoriler.KategoriAdi</td>*@
+                                    <td>@kitap.SatisFiyati</td>
+                                    <td>@kitap.AlisFiyati</td>
+
+
+                                    <td> <span class="label label-primary">@kitap.Yazarlar.YazarAdiSoyadi</span></td>
+                                  
+                                    <td>@kitap.YayinEvi.YayinEviAdi</td>
+                                    <td>@kitap.BasimYili</td>
+                                    <td>@kitap.Aciklama</td>
+                                    <td>@kitap.EklenmeTarihi</td>
+                                    <td>@kitap.IndirimOrani</td>
+                                    <td><a href="/KitapIslemleri/KitapGuncelle?id=@kitap.KitapID&kName=@kitap.KitapAdi&kFrom=Güncelleme" class="btn btn-primary rounded">Güncelle</a></td>
+                                    @*<td><a href="/KitapIslemleri/KitapGuncelle?kitapID=@kitap.KitapID" class="btn btn-primary rounded">Güncelle</a></td>*@
+                                    <td><a href="#" class="btn btn-danger rounded Sil" data-sil="@kitap.KitapID">Sil</a></td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script src="~/Content/assets/js/required/jquery-1.11.1.min.js"></script>
+    <script>
+        $(".Sil").click(function () {
+            var answer = confirm("Kayıt silinsin mi?");
+            if (answer) {
+                var ID = $(this).attr("data-sil");
+                alert(ID);
+                $.ajax({
+                    type: "POST",
+                    url: "/KitapIslemleri/KitapSil/" + ID,
+                    success: function () {
+                        alert("Kayıt silindi");
+                        window.location.replace("/KitapIslemleri/Index/");
+                    },
+                    error: function () {
+                        alert("Kayıt silme işlemi başarısız oldu");
+                    }
+
+                });
+
+            }
+            else {
+                alert("İptal'e basıldı");
+            }
+        });
+    </script>
+}
